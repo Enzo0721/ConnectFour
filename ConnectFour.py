@@ -172,7 +172,6 @@ def CheckDiag():
             #print(GameTable[i][j], GameTable[i + 1][j - 1], GameTable[i + 2][j - 2], GameTable[i + 3][j - 3])
             if (GameTable[i][j] == GameTable[i-1][j-1] == GameTable[i-2][j-2] == GameTable[i-3][j-3] != "-"): #backwards diag *NOT WORKING IDK Y*
                 CheckDiag = 1
-                print("REALDIAGFLAGBITCH")
                 ######
             if (GameTable[5][6] == GameTable[4][5] == GameTable[3][4] == GameTable[2][3] != "-"):
                 CheckDiag = 1
